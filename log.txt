@@ -1,145 +1,283 @@
-in function copy
-    for (root, dirs, files) in os.walk(from_dir)
-    root: C:\Users\yuni\projects\cpp\Fantomwaves
-    to_root: C:\users\yuni\documents\damy2
-    root[index+1:index+2]: F
-    full_path: C:\Users\yuni\projects\cpp\Fantomwaves\apply.bat
-    in function copy_forced
-        to_path: C:\users\yuni\documents\damy2\apply.bat
-        dirname: C:\users\yuni\documents\damy2
-    full_path: C:\Users\yuni\projects\cpp\Fantomwaves\README.md
-    in function copy_forced
-        to_path: C:\users\yuni\documents\damy2\README.md
-        dirname: C:\users\yuni\documents\damy2
-    for (root, dirs, files) in os.walk(from_dir)
-    root: C:\Users\yuni\projects\cpp\Fantomwaves\.git
-    to_root: C:\users\yuni\documents\damy2\.git
-    root[index+1:index+2]: .
-    for (root, dirs, files) in os.walk(from_dir)
-    root: C:\Users\yuni\projects\cpp\Fantomwaves\.git\hooks
-    to_root: C:\users\yuni\documents\damy2\.git\hooks
-    root[index+1:index+2]: h
-    full_path: C:\Users\yuni\projects\cpp\Fantomwaves\.git\hooks\applypatch-msg.sample
-    in function copy_forced
-        to_path: C:\users\yuni\documents\damy2\.git\hooks\applypatch-msg.sample
-        dirname: C:\users\yuni\documents\damy2\.git\hooks
-    full_path: C:\Users\yuni\projects\cpp\Fantomwaves\.git\hooks\commit-msg.sample
-    in function copy_forced
-        to_path: C:\users\yuni\documents\damy2\.git\hooks\commit-msg.sample
-        dirname: C:\users\yuni\documents\damy2\.git\hooks
-    full_path: C:\Users\yuni\projects\cpp\Fantomwaves\.git\hooks\post-update.sample
-    in function copy_forced
-        to_path: C:\users\yuni\documents\damy2\.git\hooks\post-update.sample
-        dirname: C:\users\yuni\documents\damy2\.git\hooks
-    full_path: C:\Users\yuni\projects\cpp\Fantomwaves\.git\hooks\pre-applypatch.sample
-    in function copy_forced
-        to_path: C:\users\yuni\documents\damy2\.git\hooks\pre-applypatch.sample
-        dirname: C:\users\yuni\documents\damy2\.git\hooks
-    full_path: C:\Users\yuni\projects\cpp\Fantomwaves\.git\hooks\pre-commit.sample
-    in function copy_forced
-        to_path: C:\users\yuni\documents\damy2\.git\hooks\pre-commit.sample
-        dirname: C:\users\yuni\documents\damy2\.git\hooks
-    full_path: C:\Users\yuni\projects\cpp\Fantomwaves\.git\hooks\pre-push.sample
-    in function copy_forced
-        to_path: C:\users\yuni\documents\damy2\.git\hooks\pre-push.sample
-        dirname: C:\users\yuni\documents\damy2\.git\hooks
-    full_path: C:\Users\yuni\projects\cpp\Fantomwaves\.git\hooks\pre-rebase.sample
-    in function copy_forced
-        to_path: C:\users\yuni\documents\damy2\.git\hooks\pre-rebase.sample
-        dirname: C:\users\yuni\documents\damy2\.git\hooks
-    full_path: C:\Users\yuni\projects\cpp\Fantomwaves\.git\hooks\prepare-commit-msg.sample
-    in function copy_forced
-        to_path: C:\users\yuni\documents\damy2\.git\hooks\prepare-commit-msg.sample
-        dirname: C:\users\yuni\documents\damy2\.git\hooks
-    full_path: C:\Users\yuni\projects\cpp\Fantomwaves\.git\hooks\update.sample
-    in function copy_forced
-        to_path: C:\users\yuni\documents\damy2\.git\hooks\update.sample
-        dirname: C:\users\yuni\documents\damy2\.git\hooks
-    for (root, dirs, files) in os.walk(from_dir)
-    root: C:\Users\yuni\projects\cpp\Fantomwaves\.git\info
-    to_root: C:\users\yuni\documents\damy2\.git\info
-    root[index+1:index+2]: i
-    full_path: C:\Users\yuni\projects\cpp\Fantomwaves\.git\info\exclude
-    in function copy_forced
-        to_path: C:\users\yuni\documents\damy2\.git\info\exclude
-        dirname: C:\users\yuni\documents\damy2\.git\info
-    for (root, dirs, files) in os.walk(from_dir)
-    root: C:\Users\yuni\projects\cpp\Fantomwaves\.git\logs
-    to_root: C:\users\yuni\documents\damy2\.git\logs
-    root[index+1:index+2]: l
-    full_path: C:\Users\yuni\projects\cpp\Fantomwaves\.git\logs\HEAD
-    in function copy_forced
-        to_path: C:\users\yuni\documents\damy2\.git\logs\HEAD
-        dirname: C:\users\yuni\documents\damy2\.git\logs
-    for (root, dirs, files) in os.walk(from_dir)
-    root: C:\Users\yuni\projects\cpp\Fantomwaves\.git\logs\refs
-    to_root: C:\users\yuni\documents\damy2\.git\logs\refs
-    root[index+1:index+2]: r
-    for (root, dirs, files) in os.walk(from_dir)
-    root: C:\Users\yuni\projects\cpp\Fantomwaves\.git\logs\refs\heads
-    to_root: C:\users\yuni\documents\damy2\.git\logs\refs\heads
-    root[index+1:index+2]: h
-    full_path: C:\Users\yuni\projects\cpp\Fantomwaves\.git\logs\refs\heads\ArrayPOD-vs2013
-    in function copy_forced
-        to_path: C:\users\yuni\documents\damy2\.git\logs\refs\heads\ArrayPOD-vs2013
-        dirname: C:\users\yuni\documents\damy2\.git\logs\refs\heads
-    full_path: C:\Users\yuni\projects\cpp\Fantomwaves\.git\logs\refs\heads\confirm-damy-sync-6sec
-    in function copy_forced
-        to_path: C:\users\yuni\documents\damy2\.git\logs\refs\heads\confirm-damy-sync-6sec
-        dirname: C:\users\yuni\documents\damy2\.git\logs\refs\heads
-    full_path: C:\Users\yuni\projects\cpp\Fantomwaves\.git\logs\refs\heads\implement-gettimeofday
-    in function copy_forced
-        to_path: C:\users\yuni\documents\damy2\.git\logs\refs\heads\implement-gettimeofday
-        dirname: C:\users\yuni\documents\damy2\.git\logs\refs\heads
-    full_path: C:\Users\yuni\projects\cpp\Fantomwaves\.git\logs\refs\heads\judge-endian
-    in function copy_forced
-        to_path: C:\users\yuni\documents\damy2\.git\logs\refs\heads\judge-endian
-        dirname: C:\users\yuni\documents\damy2\.git\logs\refs\heads
-    full_path: C:\Users\yuni\projects\cpp\Fantomwaves\.git\logs\refs\heads\master
-    in function copy_forced
-        to_path: C:\users\yuni\documents\damy2\.git\logs\refs\heads\master
-        dirname: C:\users\yuni\documents\damy2\.git\logs\refs\heads
-    full_path: C:\Users\yuni\projects\cpp\Fantomwaves\.git\logs\refs\heads\master-vs2013
-    in function copy_forced
-        to_path: C:\users\yuni\documents\damy2\.git\logs\refs\heads\master-vs2013
-        dirname: C:\users\yuni\documents\damy2\.git\logs\refs\heads
-    full_path: C:\Users\yuni\projects\cpp\Fantomwaves\.git\logs\refs\heads\P2P-newthread-4-6sec
-    in function copy_forced
-        to_path: C:\users\yuni\documents\damy2\.git\logs\refs\heads\P2P-newthread-4-6sec
-        dirname: C:\users\yuni\documents\damy2\.git\logs\refs\heads
-    full_path: C:\Users\yuni\projects\cpp\Fantomwaves\.git\logs\refs\heads\verify-Bindata-add
-    in function copy_forced
-        to_path: C:\users\yuni\documents\damy2\.git\logs\refs\heads\verify-Bindata-add
-        dirname: C:\users\yuni\documents\damy2\.git\logs\refs\heads
-    for (root, dirs, files) in os.walk(from_dir)
-    root: C:\Users\yuni\projects\cpp\Fantomwaves\.git\logs\refs\remotes
-    to_root: C:\users\yuni\documents\damy2\.git\logs\refs\remotes
-    root[index+1:index+2]: r
-    for (root, dirs, files) in os.walk(from_dir)
-    root: C:\Users\yuni\projects\cpp\Fantomwaves\.git\logs\refs\remotes\origin
-    to_root: C:\users\yuni\documents\damy2\.git\logs\refs\remotes\origin
-    root[index+1:index+2]: o
-    full_path: C:\Users\yuni\projects\cpp\Fantomwaves\.git\logs\refs\remotes\origin\ArrayPOD-vs2013
-    in function copy_forced
-        to_path: C:\users\yuni\documents\damy2\.git\logs\refs\remotes\origin\ArrayPOD-vs2013
-        dirname: C:\users\yuni\documents\damy2\.git\logs\refs\remotes\origin
-    full_path: C:\Users\yuni\projects\cpp\Fantomwaves\.git\logs\refs\remotes\origin\HEAD
-    in function copy_forced
-        to_path: C:\users\yuni\documents\damy2\.git\logs\refs\remotes\origin\HEAD
-        dirname: C:\users\yuni\documents\damy2\.git\logs\refs\remotes\origin
-    full_path: C:\Users\yuni\projects\cpp\Fantomwaves\.git\logs\refs\remotes\origin\master-vs2013
-    in function copy_forced
-        to_path: C:\users\yuni\documents\damy2\.git\logs\refs\remotes\origin\master-vs2013
-        dirname: C:\users\yuni\documents\damy2\.git\logs\refs\remotes\origin
-    for (root, dirs, files) in os.walk(from_dir)
-    root: C:\Users\yuni\projects\cpp\Fantomwaves\.git\objects
-    to_root: C:\users\yuni\documents\damy2\.git\objects
-    root[index+1:index+2]: o
-    for (root, dirs, files) in os.walk(from_dir)
-    root: C:\Users\yuni\projects\cpp\Fantomwaves\.git\objects\00
-    to_root: C:\users\yuni\documents\damy2\.git\objects\00
-    root[index+1:index+2]: 0
-    full_path: C:\Users\yuni\projects\cpp\Fantomwaves\.git\objects\00\173a5a312166d99827bac513ec8d5d694ce427
-    in function copy_forced
-        to_path: C:\users\yuni\documents\damy2\.git\objects\00\173a5a312166d99827bac513ec8d5d694ce427
-        dirname: C:\users\yuni\documents\damy2\.git\objects\00
+node: .git
+    node[0:1]: .
+node: .gitattributes
+    node[0:1]: .
+node: .gitignore
+    node[0:1]: .
+node: apply.bat
+    node[0:1]: a
+    let's split text    ext: .bat
+    ext==ignore_ext:[ext: .bat, ignore_ext: .bat]
+node: FantomWaves
+    node[0:1]: F
+node: c4996killer.h
+    node[0:1]: c
+    let's split text    ext: .h
+    from: C:\Users\yuni\projects\cpp\Fantomwaves\FantomWaves\c4996killer.h, to: C:\users\yuni\documents\damy2\FantomWaves\c4996killer.hnode: FantomWaves.h
+    node[0:1]: F
+    let's split text    ext: .h
+    from: C:\Users\yuni\projects\cpp\Fantomwaves\FantomWaves\FantomWaves.h, to: C:\users\yuni\documents\damy2\FantomWaves\FantomWaves.hnode: FantomWavesd.lib
+    node[0:1]: F
+    let's split text    ext: .lib
+    from: C:\Users\yuni\projects\cpp\Fantomwaves\FantomWaves\FantomWavesd.lib, to: C:\users\yuni\documents\damy2\FantomWaves\FantomWavesd.libnode: FantomWavesr.lib
+    node[0:1]: F
+    let's split text    ext: .lib
+    from: C:\Users\yuni\projects\cpp\Fantomwaves\FantomWaves\FantomWavesr.lib, to: C:\users\yuni\documents\damy2\FantomWaves\FantomWavesr.libnode: fw_Array.h
+    node[0:1]: f
+    let's split text    ext: .h
+    from: C:\Users\yuni\projects\cpp\Fantomwaves\FantomWaves\fw_Array.h, to: C:\users\yuni\documents\damy2\FantomWaves\fw_Array.hnode: fw_ArrayPOD.h
+    node[0:1]: f
+    let's split text    ext: .h
+    from: C:\Users\yuni\projects\cpp\Fantomwaves\FantomWaves\fw_ArrayPOD.h, to: C:\users\yuni\documents\damy2\FantomWaves\fw_ArrayPOD.hnode: fw_Bindata.h
+    node[0:1]: f
+    let's split text    ext: .h
+    from: C:\Users\yuni\projects\cpp\Fantomwaves\FantomWaves\fw_Bindata.h, to: C:\users\yuni\documents\damy2\FantomWaves\fw_Bindata.hnode: fw_Binfile.h
+    node[0:1]: f
+    let's split text    ext: .h
+    from: C:\Users\yuni\projects\cpp\Fantomwaves\FantomWaves\fw_Binfile.h, to: C:\users\yuni\documents\damy2\FantomWaves\fw_Binfile.hnode: fw_bitflag.h
+    node[0:1]: f
+    let's split text    ext: .h
+    from: C:\Users\yuni\projects\cpp\Fantomwaves\FantomWaves\fw_bitflag.h, to: C:\users\yuni\documents\damy2\FantomWaves\fw_bitflag.hnode: fw_cast.h
+    node[0:1]: f
+    let's split text    ext: .h
+    from: C:\Users\yuni\projects\cpp\Fantomwaves\FantomWaves\fw_cast.h, to: C:\users\yuni\documents\damy2\FantomWaves\fw_cast.hnode: fw_cnct.h
+    node[0:1]: f
+    let's split text    ext: .h
+    from: C:\Users\yuni\projects\cpp\Fantomwaves\FantomWaves\fw_cnct.h, to: C:\users\yuni\documents\damy2\FantomWaves\fw_cnct.hnode: fw_copydire.h
+    node[0:1]: f
+    let's split text    ext: .h
+    from: C:\Users\yuni\projects\cpp\Fantomwaves\FantomWaves\fw_copydire.h, to: C:\users\yuni\documents\damy2\FantomWaves\fw_copydire.hnode: fw_delete.h
+    node[0:1]: f
+    let's split text    ext: .h
+    from: C:\Users\yuni\projects\cpp\Fantomwaves\FantomWaves\fw_delete.h, to: C:\users\yuni\documents\damy2\FantomWaves\fw_delete.hnode: fw_enum_.h
+    node[0:1]: f
+    let's split text    ext: .h
+    from: C:\Users\yuni\projects\cpp\Fantomwaves\FantomWaves\fw_enum_.h, to: C:\users\yuni\documents\damy2\FantomWaves\fw_enum_.hnode: fw_eps.h
+    node[0:1]: f
+    let's split text    ext: .h
+    from: C:\Users\yuni\projects\cpp\Fantomwaves\FantomWaves\fw_eps.h, to: C:\users\yuni\documents\damy2\FantomWaves\fw_eps.hnode: fw_exchange.h
+    node[0:1]: f
+    let's split text    ext: .h
+    from: C:\Users\yuni\projects\cpp\Fantomwaves\FantomWaves\fw_exchange.h, to: C:\users\yuni\documents\damy2\FantomWaves\fw_exchange.hnode: fw_exeexe.h
+    node[0:1]: f
+    let's split text    ext: .h
+    from: C:\Users\yuni\projects\cpp\Fantomwaves\FantomWaves\fw_exeexe.h, to: C:\users\yuni\documents\damy2\FantomWaves\fw_exeexe.hnode: fw_exerror.h
+    node[0:1]: f
+    let's split text    ext: .h
+    from: C:\Users\yuni\projects\cpp\Fantomwaves\FantomWaves\fw_exerror.h, to: C:\users\yuni\documents\damy2\FantomWaves\fw_exerror.hnode: fw_filesize.h
+    node[0:1]: f
+    let's split text    ext: .h
+    from: C:\Users\yuni\projects\cpp\Fantomwaves\FantomWaves\fw_filesize.h, to: C:\users\yuni\documents\damy2\FantomWaves\fw_filesize.hnode: fw_gettimeofday.h
+    node[0:1]: f
+    let's split text    ext: .h
+    from: C:\Users\yuni\projects\cpp\Fantomwaves\FantomWaves\fw_gettimeofday.h, to: C:\users\yuni\documents\damy2\FantomWaves\fw_gettimeofday.hnode: fw_includes.h
+    node[0:1]: f
+    let's split text    ext: .h
+    from: C:\Users\yuni\projects\cpp\Fantomwaves\FantomWaves\fw_includes.h, to: C:\users\yuni\documents\damy2\FantomWaves\fw_includes.hnode: fw_IP.h
+    node[0:1]: f
+    let's split text    ext: .h
+    from: C:\Users\yuni\projects\cpp\Fantomwaves\FantomWaves\fw_IP.h, to: C:\users\yuni\documents\damy2\FantomWaves\fw_IP.hnode: fw_judge_endian.h
+    node[0:1]: f
+    let's split text    ext: .h
+    from: C:\Users\yuni\projects\cpp\Fantomwaves\FantomWaves\fw_judge_endian.h, to: C:\users\yuni\documents\damy2\FantomWaves\fw_judge_endian.hnode: fw_NetSurfer.h
+    node[0:1]: f
+    let's split text    ext: .h
+    from: C:\Users\yuni\projects\cpp\Fantomwaves\FantomWaves\fw_NetSurfer.h, to: C:\users\yuni\documents\damy2\FantomWaves\fw_NetSurfer.hnode: fw_NetWork.h
+    node[0:1]: f
+    let's split text    ext: .h
+    from: C:\Users\yuni\projects\cpp\Fantomwaves\FantomWaves\fw_NetWork.h, to: C:\users\yuni\documents\damy2\FantomWaves\fw_NetWork.hnode: fw_newdire.h
+    node[0:1]: f
+    let's split text    ext: .h
+    from: C:\Users\yuni\projects\cpp\Fantomwaves\FantomWaves\fw_newdire.h, to: C:\users\yuni\documents\damy2\FantomWaves\fw_newdire.hnode: fw_newshortcut.h
+    node[0:1]: f
+    let's split text    ext: .h
+    from: C:\Users\yuni\projects\cpp\Fantomwaves\FantomWaves\fw_newshortcut.h, to: C:\users\yuni\documents\damy2\FantomWaves\fw_newshortcut.hnode: fw_nullice.h
+    node[0:1]: f
+    let's split text    ext: .h
+    from: C:\Users\yuni\projects\cpp\Fantomwaves\FantomWaves\fw_nullice.h, to: C:\users\yuni\documents\damy2\FantomWaves\fw_nullice.hnode: fw_P2P.h
+    node[0:1]: f
+    let's split text    ext: .h
+    from: C:\Users\yuni\projects\cpp\Fantomwaves\FantomWaves\fw_P2P.h, to: C:\users\yuni\documents\damy2\FantomWaves\fw_P2P.hnode: fw_path.h
+    node[0:1]: f
+    let's split text    ext: .h
+    from: C:\Users\yuni\projects\cpp\Fantomwaves\FantomWaves\fw_path.h, to: C:\users\yuni\documents\damy2\FantomWaves\fw_path.hnode: fw_popup.h
+    node[0:1]: f
+    let's split text    ext: .h
+    from: C:\Users\yuni\projects\cpp\Fantomwaves\FantomWaves\fw_popup.h, to: C:\users\yuni\documents\damy2\FantomWaves\fw_popup.hnode: fw_publicdef.h
+    node[0:1]: f
+    let's split text    ext: .h
+    from: C:\Users\yuni\projects\cpp\Fantomwaves\FantomWaves\fw_publicdef.h, to: C:\users\yuni\documents\damy2\FantomWaves\fw_publicdef.hnode: fw_ring.h
+    node[0:1]: f
+    let's split text    ext: .h
+    from: C:\Users\yuni\projects\cpp\Fantomwaves\FantomWaves\fw_ring.h, to: C:\users\yuni\documents\damy2\FantomWaves\fw_ring.hnode: fw_slice.h
+    node[0:1]: f
+    let's split text    ext: .h
+    from: C:\Users\yuni\projects\cpp\Fantomwaves\FantomWaves\fw_slice.h, to: C:\users\yuni\documents\damy2\FantomWaves\fw_slice.hnode: fw_stdrandom.h
+    node[0:1]: f
+    let's split text    ext: .h
+    from: C:\Users\yuni\projects\cpp\Fantomwaves\FantomWaves\fw_stdrandom.h, to: C:\users\yuni\documents\damy2\FantomWaves\fw_stdrandom.hnode: fw_thread.h
+    node[0:1]: f
+    let's split text    ext: .h
+    from: C:\Users\yuni\projects\cpp\Fantomwaves\FantomWaves\fw_thread.h, to: C:\users\yuni\documents\damy2\FantomWaves\fw_thread.hnode: fw_trade.h
+    node[0:1]: f
+    let's split text    ext: .h
+    from: C:\Users\yuni\projects\cpp\Fantomwaves\FantomWaves\fw_trade.h, to: C:\users\yuni\documents\damy2\FantomWaves\fw_trade.hnode: fw_typedef.h
+    node[0:1]: f
+    let's split text    ext: .h
+    from: C:\Users\yuni\projects\cpp\Fantomwaves\FantomWaves\fw_typedef.h, to: C:\users\yuni\documents\damy2\FantomWaves\fw_typedef.hnode: fw_UDP_cliant.h
+    node[0:1]: f
+    let's split text    ext: .h
+    from: C:\Users\yuni\projects\cpp\Fantomwaves\FantomWaves\fw_UDP_cliant.h, to: C:\users\yuni\documents\damy2\FantomWaves\fw_UDP_cliant.hnode: fw_UDP_server.h
+    node[0:1]: f
+    let's split text    ext: .h
+    from: C:\Users\yuni\projects\cpp\Fantomwaves\FantomWaves\fw_UDP_server.h, to: C:\users\yuni\documents\damy2\FantomWaves\fw_UDP_server.hnode: fw_view.h
+    node[0:1]: f
+    let's split text    ext: .h
+    from: C:\Users\yuni\projects\cpp\Fantomwaves\FantomWaves\fw_view.h, to: C:\users\yuni\documents\damy2\FantomWaves\fw_view.hnode: fw_vtypedef.h
+    node[0:1]: f
+    let's split text    ext: .h
+    from: C:\Users\yuni\projects\cpp\Fantomwaves\FantomWaves\fw_vtypedef.h, to: C:\users\yuni\documents\damy2\FantomWaves\fw_vtypedef.hnode: fw_Wav.h
+    node[0:1]: f
+    let's split text    ext: .h
+    from: C:\Users\yuni\projects\cpp\Fantomwaves\FantomWaves\fw_Wav.h, to: C:\users\yuni\documents\damy2\FantomWaves\fw_Wav.hnode: fw_window.h
+    node[0:1]: f
+    let's split text    ext: .h
+    from: C:\Users\yuni\projects\cpp\Fantomwaves\FantomWaves\fw_window.h, to: C:\users\yuni\documents\damy2\FantomWaves\fw_window.hnode: fw_WindowEx.h
+    node[0:1]: f
+    let's split text    ext: .h
+    from: C:\Users\yuni\projects\cpp\Fantomwaves\FantomWaves\fw_WindowEx.h, to: C:\users\yuni\documents\damy2\FantomWaves\fw_WindowEx.hnode: fw_xrandom.h
+    node[0:1]: f
+    let's split text    ext: .h
+    from: C:\Users\yuni\projects\cpp\Fantomwaves\FantomWaves\fw_xrandom.h, to: C:\users\yuni\documents\damy2\FantomWaves\fw_xrandom.hnode: fw_xy2radian.h
+    node[0:1]: f
+    let's split text    ext: .h
+    from: C:\Users\yuni\projects\cpp\Fantomwaves\FantomWaves\fw_xy2radian.h, to: C:\users\yuni\documents\damy2\FantomWaves\fw_xy2radian.hnode: fw_zeromemory.h
+    node[0:1]: f
+    let's split text    ext: .h
+    from: C:\Users\yuni\projects\cpp\Fantomwaves\FantomWaves\fw_zeromemory.h, to: C:\users\yuni\documents\damy2\FantomWaves\fw_zeromemory.hnode: FantomWaves_cpp
+    node[0:1]: F
+node: bfile.cpp
+    node[0:1]: b
+    let's split text    ext: .cpp
+    from: C:\Users\yuni\projects\cpp\Fantomwaves\FantomWaves_cpp\bfile.cpp, to: C:\users\yuni\documents\damy2\FantomWaves_cpp\bfile.cppnode: Bindata.cpp
+    node[0:1]: B
+    let's split text    ext: .cpp
+    from: C:\Users\yuni\projects\cpp\Fantomwaves\FantomWaves_cpp\Bindata.cpp, to: C:\users\yuni\documents\damy2\FantomWaves_cpp\Bindata.cppnode: bitflag.cpp
+    node[0:1]: b
+    let's split text    ext: .cpp
+    from: C:\Users\yuni\projects\cpp\Fantomwaves\FantomWaves_cpp\bitflag.cpp, to: C:\users\yuni\documents\damy2\FantomWaves_cpp\bitflag.cppnode: c4996killer.cpp
+    node[0:1]: c
+    let's split text    ext: .cpp
+    from: C:\Users\yuni\projects\cpp\Fantomwaves\FantomWaves_cpp\c4996killer.cpp, to: C:\users\yuni\documents\damy2\FantomWaves_cpp\c4996killer.cppnode: copydire.cpp
+    node[0:1]: c
+    let's split text    ext: .cpp
+    from: C:\Users\yuni\projects\cpp\Fantomwaves\FantomWaves_cpp\copydire.cpp, to: C:\users\yuni\documents\damy2\FantomWaves_cpp\copydire.cppnode: filesize.cpp
+    node[0:1]: f
+    let's split text    ext: .cpp
+    from: C:\Users\yuni\projects\cpp\Fantomwaves\FantomWaves_cpp\filesize.cpp, to: C:\users\yuni\documents\damy2\FantomWaves_cpp\filesize.cppnode: gettimeofday.cpp
+    node[0:1]: g
+    let's split text    ext: .cpp
+    from: C:\Users\yuni\projects\cpp\Fantomwaves\FantomWaves_cpp\gettimeofday.cpp, to: C:\users\yuni\documents\damy2\FantomWaves_cpp\gettimeofday.cppnode: IP.cpp
+    node[0:1]: I
+    let's split text    ext: .cpp
+    from: C:\Users\yuni\projects\cpp\Fantomwaves\FantomWaves_cpp\IP.cpp, to: C:\users\yuni\documents\damy2\FantomWaves_cpp\IP.cppnode: judge_endian.cpp
+    node[0:1]: j
+    let's split text    ext: .cpp
+    from: C:\Users\yuni\projects\cpp\Fantomwaves\FantomWaves_cpp\judge_endian.cpp, to: C:\users\yuni\documents\damy2\FantomWaves_cpp\judge_endian.cppnode: NetSurfer.cpp
+    node[0:1]: N
+    let's split text    ext: .cpp
+    from: C:\Users\yuni\projects\cpp\Fantomwaves\FantomWaves_cpp\NetSurfer.cpp, to: C:\users\yuni\documents\damy2\FantomWaves_cpp\NetSurfer.cppnode: NetWork.cpp
+    node[0:1]: N
+    let's split text    ext: .cpp
+    from: C:\Users\yuni\projects\cpp\Fantomwaves\FantomWaves_cpp\NetWork.cpp, to: C:\users\yuni\documents\damy2\FantomWaves_cpp\NetWork.cppnode: newdire.cpp
+    node[0:1]: n
+    let's split text    ext: .cpp
+    from: C:\Users\yuni\projects\cpp\Fantomwaves\FantomWaves_cpp\newdire.cpp, to: C:\users\yuni\documents\damy2\FantomWaves_cpp\newdire.cppnode: newshortcut.cpp
+    node[0:1]: n
+    let's split text    ext: .cpp
+    from: C:\Users\yuni\projects\cpp\Fantomwaves\FantomWaves_cpp\newshortcut.cpp, to: C:\users\yuni\documents\damy2\FantomWaves_cpp\newshortcut.cppnode: P2P.cpp
+    node[0:1]: P
+    let's split text    ext: .cpp
+    from: C:\Users\yuni\projects\cpp\Fantomwaves\FantomWaves_cpp\P2P.cpp, to: C:\users\yuni\documents\damy2\FantomWaves_cpp\P2P.cppnode: path.cpp
+    node[0:1]: p
+    let's split text    ext: .cpp
+    from: C:\Users\yuni\projects\cpp\Fantomwaves\FantomWaves_cpp\path.cpp, to: C:\users\yuni\documents\damy2\FantomWaves_cpp\path.cppnode: popup.cpp
+    node[0:1]: p
+    let's split text    ext: .cpp
+    from: C:\Users\yuni\projects\cpp\Fantomwaves\FantomWaves_cpp\popup.cpp, to: C:\users\yuni\documents\damy2\FantomWaves_cpp\popup.cppnode: stdrandom.cpp
+    node[0:1]: s
+    let's split text    ext: .cpp
+    from: C:\Users\yuni\projects\cpp\Fantomwaves\FantomWaves_cpp\stdrandom.cpp, to: C:\users\yuni\documents\damy2\FantomWaves_cpp\stdrandom.cppnode: thread.cpp
+    node[0:1]: t
+    let's split text    ext: .cpp
+    from: C:\Users\yuni\projects\cpp\Fantomwaves\FantomWaves_cpp\thread.cpp, to: C:\users\yuni\documents\damy2\FantomWaves_cpp\thread.cppnode: UDP_cliant.cpp
+    node[0:1]: U
+    let's split text    ext: .cpp
+    from: C:\Users\yuni\projects\cpp\Fantomwaves\FantomWaves_cpp\UDP_cliant.cpp, to: C:\users\yuni\documents\damy2\FantomWaves_cpp\UDP_cliant.cppnode: UDP_server.cpp
+    node[0:1]: U
+    let's split text    ext: .cpp
+    from: C:\Users\yuni\projects\cpp\Fantomwaves\FantomWaves_cpp\UDP_server.cpp, to: C:\users\yuni\documents\damy2\FantomWaves_cpp\UDP_server.cppnode: view.cpp
+    node[0:1]: v
+    let's split text    ext: .cpp
+    from: C:\Users\yuni\projects\cpp\Fantomwaves\FantomWaves_cpp\view.cpp, to: C:\users\yuni\documents\damy2\FantomWaves_cpp\view.cppnode: wav.cpp
+    node[0:1]: w
+    let's split text    ext: .cpp
+    from: C:\Users\yuni\projects\cpp\Fantomwaves\FantomWaves_cpp\wav.cpp, to: C:\users\yuni\documents\damy2\FantomWaves_cpp\wav.cppnode: WindowEx.cpp
+    node[0:1]: W
+    let's split text    ext: .cpp
+    from: C:\Users\yuni\projects\cpp\Fantomwaves\FantomWaves_cpp\WindowEx.cpp, to: C:\users\yuni\documents\damy2\FantomWaves_cpp\WindowEx.cppnode: xrandom.cpp
+    node[0:1]: x
+    let's split text    ext: .cpp
+    from: C:\Users\yuni\projects\cpp\Fantomwaves\FantomWaves_cpp\xrandom.cpp, to: C:\users\yuni\documents\damy2\FantomWaves_cpp\xrandom.cppnode: xy2radian.cpp
+    node[0:1]: x
+    let's split text    ext: .cpp
+    from: C:\Users\yuni\projects\cpp\Fantomwaves\FantomWaves_cpp\xy2radian.cpp, to: C:\users\yuni\documents\damy2\FantomWaves_cpp\xy2radian.cppnode: FantomWaves_project
+    node[0:1]: F
+node: Debug
+    node[0:1]: D
+node: FantomWaves
+    node[0:1]: F
+node: Debug
+    node[0:1]: D
+node: FantomWaves.vcxproj
+    node[0:1]: F
+    let's split text    ext: .vcxproj
+    from: C:\Users\yuni\projects\cpp\Fantomwaves\FantomWaves_project\FantomWaves\FantomWaves.vcxproj, to: C:\users\yuni\documents\damy2\FantomWaves_project\FantomWaves\FantomWaves.vcxprojnode: FantomWaves.vcxproj.filters
+    node[0:1]: F
+    let's split text    ext: .filters
+    from: C:\Users\yuni\projects\cpp\Fantomwaves\FantomWaves_project\FantomWaves\FantomWaves.vcxproj.filters, to: C:\users\yuni\documents\damy2\FantomWaves_project\FantomWaves\FantomWaves.vcxproj.filtersnode: ReadMe.txt
+    node[0:1]: R
+    let's split text    ext: .txt
+    from: C:\Users\yuni\projects\cpp\Fantomwaves\FantomWaves_project\FantomWaves\ReadMe.txt, to: C:\users\yuni\documents\damy2\FantomWaves_project\FantomWaves\ReadMe.txtnode: Release
+    node[0:1]: R
+node: FantomWaves_project.sdf
+    node[0:1]: F
+    let's split text    ext: .sdf
+    ext==ignore_ext:[ext: .sdf, ignore_ext: .sdf]
+node: FantomWaves_project.sln
+    node[0:1]: F
+    let's split text    ext: .sln
+    from: C:\Users\yuni\projects\cpp\Fantomwaves\FantomWaves_project\FantomWaves_project.sln, to: C:\users\yuni\documents\damy2\FantomWaves_project\FantomWaves_project.slnnode: FantomWaves_project.v12.suo
+    node[0:1]: F
+    let's split text    ext: .suo
+    from: C:\Users\yuni\projects\cpp\Fantomwaves\FantomWaves_project\FantomWaves_project.v12.suo, to: C:\users\yuni\documents\damy2\FantomWaves_project\FantomWaves_project.v12.suonode: Release
+    node[0:1]: R
+node: use_FantomWaves
+    node[0:1]: u
+node: Debug
+    node[0:1]: D
+node: main.cpp
+    node[0:1]: m
+    let's split text    ext: .cpp
+    from: C:\Users\yuni\projects\cpp\Fantomwaves\FantomWaves_project\use_FantomWaves\main.cpp, to: C:\users\yuni\documents\damy2\FantomWaves_project\use_FantomWaves\main.cppnode: Release
+    node[0:1]: R
+node: use_FantomWaves.vcxproj
+    node[0:1]: u
+    let's split text    ext: .vcxproj
+    from: C:\Users\yuni\projects\cpp\Fantomwaves\FantomWaves_project\use_FantomWaves\use_FantomWaves.vcxproj, to: C:\users\yuni\documents\damy2\FantomWaves_project\use_FantomWaves\use_FantomWaves.vcxprojnode: use_FantomWaves.vcxproj.filters
+    node[0:1]: u
+    let's split text    ext: .filters
+    from: C:\Users\yuni\projects\cpp\Fantomwaves\FantomWaves_project\use_FantomWaves\use_FantomWaves.vcxproj.filters, to: C:\users\yuni\documents\damy2\FantomWaves_project\use_FantomWaves\use_FantomWaves.vcxproj.filtersnode: README.md
+    node[0:1]: R
+    let's split text    ext: .md
+    ext==ignore_ext:[ext: .md, ignore_ext: .md]

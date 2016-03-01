@@ -9,51 +9,48 @@ f = open("log.txt", "w")
 f.close()
 f = open("log.txt", "a")
 
-def get_related(root, from_dir):
-    return root[len(from_dir):]
-
 def make_directory_as_needed(dir_path):
     if os.path.isdir(dir_path):
         return
     os.makedirs(dir_path)
 
-def is_match(full_path, error_list):
-    for error in error_list:
-        if re.search(error, full_path):
-            return True
-    return False
+def copy_file(from_dir, to_dir, ignore_extensions, node):
+    f.write("    node[0:1]: " + node[0:1] + "\n")
+    if node[0:1] == '.':
+        return
+    else:
+        f.write("    let's split text")
+    root, ext = os.path.splitext(node)
+    f.write("    ext: " + ext + "\n")
+    for ignore_ext in ignore_extensions:
+        if ext == ignore_ext:
+            f.write("    ext==ignore_ext:[ext: "+ext+", ignore_ext: "+ignore_ext+"]\n")
+            return
+    f.write("    from: " + from_dir+"\\"+node + ", to: " + to_dir+"\\"+node)
+    shutil.copy(from_dir+"\\"+node, to_dir+"\\"+node)
 
-def copy_forced(from_path, to_path):
-    f.write("    in function copy_forced\n")
-    f.write("        to_path: " + to_path + "\n")
-    dirname = os.path.dirname(to_path)
-    f.write("        dirname: " + dirname + "\n")
-    make_directory_as_needed(dirname)
-    shutil.copy(from_path, to_path)
+def copy_dir(from_dir, to_dir, ignore_extensions, ignore_directorys, node):
+    f.write("    node[0:1]: " + node[0:1] + "\n")
+    if node[0:1] == '.':
+        return
+    for ignore_dir in ignore_directorys:
+        if node == ignore_dir:
+            return
+    make_directory_as_needed(to_dir+"\\"+node)
+    copy_all(from_dir+"\\"+node, to_dir+"\\"+node, ignore_extensions, ignore_directorys)
 
-def copy(from_dir, to_dir, error_list):
-    f.write("in function copy\n")
-    for (root, dirs, files) in os.walk(from_dir):
-        f.write("    for (root, dirs, files) in os.walk(from_dir)\n")
-        f.write("    root: "+root+"\n")
-        to_root = to_dir + get_related(root, from_dir)
-        f.write("    to_root: " + to_root + "\n")
-        index = root.rfind("\\")
-        f.write("    root[index+1:index+2]: " + root[index+1:index+2] + "\n")
-        if index != -1:
-            if root[index+1:index+2] == '.':
-                continue
-        for file in files:
-            if file[0:1] == '.':
-                continue
-            full_path = root + "\\" + file
-            f.write("    full_path: "+full_path+"\n")
-            if is_match(full_path, error_list):
-                continue
-            copy_forced(full_path, to_root + "\\" + file)
+def copy_all(from_dir, to_dir, ignore_extensions, ignore_directorys):
+    make_directory_as_needed(to_dir)
+    for node in os.listdir(from_dir):
+        f.write("node: " + node + "\n")
+        if os.path.isfile(from_dir+"\\"+node):
+            copy_file(from_dir, to_dir, ignore_extensions, node)
+        if os.path.isdir(from_dir+"\\"+node):
+            copy_dir(from_dir, to_dir, ignore_extensions, ignore_directorys, node)
 
 if __name__ == "__main__":
     from_dir = r"C:\Users\yuni\projects\cpp\Fantomwaves"
     to_dir = r"C:\users\yuni\documents\damy2"
-    error_list = []
-    copy(from_dir, to_dir, error_list)
+    ignore_extensions = [".bat", ".md", ".sdf"]
+    ignore_directorys = ["Debug", "Release"]
+    copy_all(from_dir, to_dir, ignore_extensions, ignore_directorys)

@@ -38,6 +38,11 @@ def copy(from_dir, to_dir, error_list):
         f.write("    root: "+root+"\n")
         to_root = to_dir + get_related(root, from_dir)
         f.write("    to_root: " + to_root + "\n")
+        index = root.rfind("\\")
+        f.write("    root[index+1:index+2]: " + root[index+1:index+2] + "\n")
+        if index != -1:
+            if root[index+1:index+2] == '.':
+                continue
         for file in files:
             if file[0:1] == '.':
                 continue

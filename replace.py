@@ -51,6 +51,6 @@ def copy_all(from_dir, to_dir, ignore_extensions, ignore_directorys):
 if __name__ == "__main__":
     from_dir = r"C:\Users\yuni\projects\cpp\Fantomwaves"
     to_dir = r"C:\users\yuni\documents\damy2"
-    ignore_extensions = [".bat", ".md", ".sdf"]
+    ignore_extensions = [".bat", ".md", ".sdf", ".opensdf"]
     ignore_directorys = ["Debug", "Release"]
     copy_all(from_dir, to_dir, ignore_extensions, ignore_directorys)
